@@ -152,7 +152,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				"GCC_VERSION_i386[sdk=macosx*][arch=i386]" = "";
@@ -194,7 +193,6 @@
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_STRICT_ALIASING = YES;
 				GCC_UNROLL_LOOPS = YES;
@@ -232,12 +230,13 @@
 					"-Wconversion",
 				);
 				PRODUCT_NAME = memtest;
-				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
-				"SDKROOT_i386[sdk=macosx*][arch=i386]" = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.7.sdk;
+				"SDKROOT_i386[arch=*]" = /Developer/SDKs/MacOSX10.7.sdk;
+				"SDKROOT_i386[sdk=macosx*][arch=i386]" = /Developer/SDKs/MacOSX10.7.sdk;
 				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
 				SDKROOT_ppc64 = /Developer/SDKs/MacOSX10.4u.sdk;
-				SDKROOT_x86_64 = /Developer/SDKs/MacOSX10.4u.sdk;
-				"SDKROOT_x86_64[sdk=macosx*][arch=x86_64]" = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_x86_64 = /Developer/SDKs/MacOSX10.7.sdk;
+				"SDKROOT_x86_64[sdk=macosx*][arch=x86_64]" = /Developer/SDKs/MacOSX10.7.sdk;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "";
 				WARNING_CFLAGS = (
@@ -262,7 +261,6 @@
 				GCC_ALTIVEC_EXTENSIONS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				"GCC_VERSION_i386[sdk=macosx*][arch=i386]" = "";
